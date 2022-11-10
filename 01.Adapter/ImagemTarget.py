@@ -4,9 +4,9 @@ from Adapter_CorelDraw_Image import Adapter_CorelDraw_Image
 class ImagemTarget(ABC):
 
     @abstractmethod
-    def carregarImagem(nomeDoArquivo):
+    def carregarImagem(self,nomeDoArquivo):
         return
     
     @abstractmethod
-    def desenharImagem(posX,posY,largura,altura):
+    def desenharImagem(self,posX,posY,largura,altura):
         return
